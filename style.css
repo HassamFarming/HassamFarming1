@@ -1,40 +1,52 @@
+/* Import stylish font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Orbitron', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: black;
+  color: white;
 }
+
 header .banner {
   width: 100%;
   height: auto;
 }
+
 nav {
   background: #006400;
   color: white;
   padding: 10px;
   text-align: center;
 }
+
 nav a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
+
 section {
   padding: 20px;
 }
+
 .animal {
-  border: 1px solid #ccc;
+  border: 1px solid white;
   padding: 10px;
   margin: 10px 0;
 }
+
 .animal img {
   width: 100%;
   max-width: 300px;
   height: auto;
 }
+
 footer {
-  background: #f4f4f4;
+  background: black;
+  color: white;
   text-align: center;
   padding: 10px;
   font-size: 14px;
